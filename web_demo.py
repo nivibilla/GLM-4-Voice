@@ -263,5 +263,7 @@ if __name__ == "__main__":
     # Launch the interface
     demo.launch(
         server_port=args.port,
-        server_name=args.host
+        server_name=args.host,
+        ssr_mode=False,
+        share=True
     )
